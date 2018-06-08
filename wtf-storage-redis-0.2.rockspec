@@ -1,8 +1,8 @@
-package = "wtf-storages-redis-unix"
-version = "0.1-1"
+package = "wtf-storage-redis"
+version = "0.2-1"
 source = {
    url = "git+https://github.com/honeybot/wtf-storage-redis",
-   tag = "0.1"
+   tag = "0.2"
 }
 description = {
    homepage = "https://github.com/honeybot/wtf-storage-redis",
@@ -14,6 +14,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["wtf.storages.redis] = "wtf/storages/redis.lua"
+      ["wtf.storages.redis"] = "wtf/storages/redis.lua"
    }
 }
